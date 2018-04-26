@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.aog.dao.UmiVideoMapper">
+  <resultMap id="BaseResultMap" type="com.aog.model.UmiVideo">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="ossvideoid" jdbcType="VARCHAR" property="ossvideoid" />
+    <result column="videoname" jdbcType="VARCHAR" property="videoname" />
+    <result column="videoabstract" jdbcType="VARCHAR" property="videoabstract" />
+    <result column="videourls" jdbcType="VARCHAR" property="videourls" />
+    <result column="videotype" jdbcType="INTEGER" property="videotype" />
+    <result column="publicationid" jdbcType="INTEGER" property="publicationid" />
+    <result column="ischarge" jdbcType="INTEGER" property="ischarge" />
+    <result column="chargetime" jdbcType="INTEGER" property="chargetime" />
+    <result column="viewcount" jdbcType="INTEGER" property="viewcount" />
+    <result column="buycount" jdbcType="INTEGER" property="buycount" />
+    <result column="headpicurl" jdbcType="VARCHAR" property="headpicurl" />
+    <result column="sortid" jdbcType="INTEGER" property="sortid" />
+    <result column="level" jdbcType="INTEGER" property="level" />
+    <result column="subtime" jdbcType="DATE" property="subtime" />
+    <result column="videourl1" jdbcType="VARCHAR" property="videourl1" />
+    <result column="videourl2" jdbcType="VARCHAR" property="videourl2" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="createtime" jdbcType="TIMESTAMP" property="createtime" />
+    <result column="updatetime" jdbcType="TIMESTAMP" property="updatetime" />
+    <result column="createuid" jdbcType="INTEGER" property="createuid" />
+    <result column="createuname" jdbcType="VARCHAR" property="createuname" />
+  </resultMap>
+</mapper>
